@@ -33,13 +33,15 @@ public class Corrida {
 
         // Implementação parecida em JavaScript
         /*
-         * const arr = listaVeiculos.reduce((resAtual, proxElem) -> {
+         * const arr = listaVeiculos.reduce((prev, nextElem) -> {
          *  const obj = {
          *      placa: proxElement.placa,
          *      valor: formula
          *  }
          * 
-         *  resAtual.push(obj);
+         *  prev.push(obj);
+         * 
+         *  return prev;
          * }, []);
          */
 
